@@ -12,10 +12,39 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark ">
+    <div class="container-fluid"> 
+      <!-- toggler -->
+      <a href="Index.html" class="navbar-brand fs-1 py-0 align-tex-center" >Bug Tracker</a>
+      <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navmenu"
+      >
+    <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+            <a href="#questions" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+            <a href="login.html" class="nav-link">Sign In</a>
+          </li>
+        </ul>
+      </div> 
+    </div>
+  </nav>
+
+  </div>
   <section>
-    <div class="text-center mt-5">
+    <div class="text-center mt-0">
     <form style="max-width: 470px;margin:auto;">
-      <i class="bi bi-person-square" style="font-size: 15rem;"> </i>
+      <i class="bi bi-person-square " style="font-size: 15rem;"> </i>
       <h1 class="font-weight-normal">Please Sign In</h1>
       <label for="emailAddress" class="visually-hidden-focusable">Email address</label>
       <Input type="email" id="emailAddress" class="form-control" placeholder="Email Address" required autofocus></Input>
@@ -27,7 +56,7 @@
         </label>
       </div>
       <div class="mt-3">
-        <button class="btn btn-lg btn-primary btn-block">Sign In</button>
+        <button class="btn btn-lg btn-primary btn-block mb-5">Sign In</button>
       </div>
 
     </form>
